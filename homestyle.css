@@ -1,0 +1,81 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #e3f8fc;
+}
+
+.aboutme {
+	position: fixed;
+	font-family: Helvetica;
+	width: 100%;
+}
+
+ .aboutme h2 {
+ 	display: table;
+	margin: 48px 171.5vh;
+	font-size: 15px;
+	text-align: center;
+
+}
+
+.circle {
+	position: fixed;
+	margin: 15px 168vh;
+	opacity: .4;
+}
+
+.top {
+	margin: 0vh 0px 0px 0px;
+	position: fixed;
+	width: 12%;
+	height: 100%;
+}
+
+#top {
+	font-size: 25px;
+}
+
+.top ul li {
+	display: table;
+	padding: 10px;
+	margin: 8vh 0px 0vh 0px;
+	font-size: 15px;
+	font-family: Helvetica;
+	color: black;
+	opacity: .4;
+}
+
+.heading {
+	background-color: #a49bff;
+ 	width: 100%;
+ 	display: inline-block;
+ 	padding:20px 0px 20px 0px;
+}
+
+.heading h1{
+ 	margin-top: 20px;
+ 	margin-right: 0px;
+ 	text-align: center;
+ 	font-size: 50px;
+	color: black;
+}
+
+.Spur-Connect {
+	margin-top: 0px;
+	width: 100%;
+}
+
+.GoodDesign {
+	margin-top: 0px;
+}
+
+.Ghost {
+	padding-bottom: 20px;
+}
+
+.footer {
+	width: 100%;
+	background-color: #a49bff;
+	padding: 10px 0px 10px 0px;
+	font-size: 20px
+}
