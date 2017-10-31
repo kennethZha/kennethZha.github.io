@@ -6,13 +6,13 @@ body {
 
 .aboutme {
 	position: fixed;
-	font-family: Helvetica;
 	width: 100%;
 }
 
  .aboutme h2 {
  	display: table;
-	margin: 48px 171.5vh;
+ 	font-family: 'Satisfy';
+	margin: 48px 172.2vh;
 	font-size: 15px;
 	text-align: center;
 
@@ -40,16 +40,18 @@ body {
 	padding: 10px;
 	margin: 8vh 0px 0vh 0px;
 	font-size: 15px;
-	font-family: Helvetica;
+	font-family: 'Satisfy';
 	color: black;
 	opacity: .4;
 }
 
 .heading {
+	font-family: 'Satisfy';
 	background-color: #a49bff;
  	width: 100%;
  	display: inline-block;
- 	padding:20px 0px 20px 0px;
+ 	padding:25px 0px 20px 0px;
+ 
 }
 
 .heading h1{
