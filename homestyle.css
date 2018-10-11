@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #e3f8fc;
+	background-color: #edf8ff;
 }
 
 .aboutme {
@@ -12,7 +12,7 @@ body {
  .aboutme h2 {
  	display: table;
  	font-family: 'Satisfy';
-	margin: 48px 172.2vh;
+	margin: 48px 184.8vh;
 	font-size: 15px;
 	text-align: center;
 
@@ -20,7 +20,7 @@ body {
 
 .circle {
 	position: fixed;
-	margin: 15px 168vh;
+	margin: 15px 180vh;
 	opacity: .4;
 }
 
@@ -47,7 +47,7 @@ body {
 
 .heading {
 	font-family: 'Satisfy';
-	background-color: #a49bff;
+	background-color: #e2f4ff;
  	width: 100%;
  	display: inline-block;
  	padding:20px 0px 15px 0px;
@@ -77,7 +77,7 @@ body {
 
 .footer {
 	width: 100%;
-	background-color: #a49bff;
+	background-color: #e2f4ff;
 	padding: 1px 0px 1px 0px;
 	font-size: 20px
 }
