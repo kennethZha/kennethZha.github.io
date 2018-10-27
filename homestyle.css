@@ -4,6 +4,22 @@ body {
 	background-color: #edf8ff;
 }
 
+.heading {
+	font-family: 'Satisfy';
+	background-color: #ade0ff;
+ 	width: 100%;
+ 	display: inline-block;
+ 	padding:20px 0px 15px 0px;
+ 
+}
+
+.heading h1{
+ 	margin-top: 20px;
+ 	margin-right: 0px;
+ 	text-align: center;
+ 	font-size: 50px;
+}
+
 .aboutme {
 	position: fixed;
 	width: 100%;
@@ -12,16 +28,17 @@ body {
  .aboutme h2 {
  	display: table;
  	font-family: 'Satisfy';
-	margin: 48px 184.8vh;
-	font-size: 15px;
+	margin: 41px 172.3vh;
+	font-size: 18px;
 	text-align: center;
 
 }
 
 .circle {
 	position: fixed;
-	margin: 15px 180vh;
-	opacity: .4;
+	border-top-left-radius: 1;
+	margin: 15px 168.5vh;
+	opacity: .3;
 }
 
 .top {
@@ -37,28 +54,11 @@ body {
 
 .top ul li {
 	display: table;
-	padding: 10px;
+	padding: 3px;
 	margin: 8vh 0px 0vh 0px;
-	font-size: 15px;
+	font-size: 20px;
+	font-weight: 700;
 	font-family: 'Satisfy';
-	color: black;
-	opacity: .4;
-}
-
-.heading {
-	font-family: 'Satisfy';
-	background-color: #e2f4ff;
- 	width: 100%;
- 	display: inline-block;
- 	padding:20px 0px 15px 0px;
- 
-}
-
-.heading h1{
- 	margin-top: 20px;
- 	margin-right: 0px;
- 	text-align: center;
- 	font-size: 50px;
 	color: black;
 }
 
@@ -73,11 +73,12 @@ body {
 
 .Ghost {
 	padding-bottom: 20px;
+	width: 100%;
 }
 
 .footer {
 	width: 100%;
-	background-color: #e2f4ff;
-	padding: 1px 0px 1px 0px;
-	font-size: 20px
+	background-color: #ade0ff;
+	padding: 5px;
+	font-size: 20px;
 }
