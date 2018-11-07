@@ -27,7 +27,7 @@ function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
 }
 
-setTimeout(timeover,5800);
+setTimeout(timeover,5900);
 
 function timeover() {
   done = true;
