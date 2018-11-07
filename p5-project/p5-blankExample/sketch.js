@@ -20,7 +20,7 @@ setTimeout(arg1,6000);
 
 function arg1() {
   background(255);
-  fill("gray");
+  fill(96);
   noStroke();
   textSize(15);
   text("5 %", 730, 100);
@@ -31,7 +31,7 @@ setTimeout(arg2,9000);
 
 function arg2() {
   background(255);
-  fill("gray");
+  fill(96);
   noStroke();
   textSize(15);
   text("13 %", 730, 100);
@@ -42,7 +42,7 @@ setTimeout(arg3,20000);
 
 function arg3() {
   background(255);
-  fill("gray");
+  fill(96);
   noStroke();
   textSize(15);
   text("27 %", 730, 100);
@@ -53,7 +53,7 @@ setTimeout(arg4,40000);
 
 function arg4() {
   background(255);
-  fill("gray");
+  fill(96);
   noStroke();
   textSize(15);
   text("45 %", 730, 100);
@@ -64,7 +64,7 @@ setTimeout(arg5,60000);
 
 function arg5() {
   background(255);
-  fill("gray");
+  fill(96);
   noStroke();
   textSize(15);
   text("63 %", 730, 100);
@@ -75,7 +75,7 @@ setTimeout(arg6,80000);
 
 function arg6() {
   background(255);
-  fill("gray");
+  fill(96);
   noStroke();
   textSize(15);
   text("99 %", 730, 100);
