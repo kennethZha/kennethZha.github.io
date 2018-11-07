@@ -12,7 +12,7 @@ function setup() {
 function draw() {
   // put drawing code here --> this loops every frame
   if(done == true){
-    strokeWeight(10);
+    strokeWeight(60);
     stroke(173, 224,255);
     noFill();
     ellipse(width/2.05, height/1.6, ellipseWidth);
@@ -27,7 +27,7 @@ function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
 }
 
-setTimeout(timeover,7800);
+setTimeout(timeover,5800);
 
 function timeover() {
   done = true;
