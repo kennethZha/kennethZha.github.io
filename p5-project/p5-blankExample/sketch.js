@@ -39,15 +39,6 @@ function draw() {
     }
 }
 
-function mouseOver() {
-  if (mouseX > windowWidth - 150 && mouseY < 100) {
-    fill(0);
-    rect(windowWidth - 200, 50,50,20);
-    //fill(95,158,160);
-    text('refresh?',windowWidth - 200, 50);
-  }
-}
-
 // refreshing page function
 function mouseClicked() {
   if (mouseX > windowWidth - 150 && mouseY < 80) {
