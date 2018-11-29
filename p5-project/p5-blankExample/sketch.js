@@ -4,10 +4,6 @@ var cross;
 var counter = 0;
 var timeleft = 0;
 
- function preload () {
-   cross = loadImage ('../../cursor.png');
- }
-
  function convertSeconds (s) {
    var min = floor(s / 60);
    var sec = s % 60;
