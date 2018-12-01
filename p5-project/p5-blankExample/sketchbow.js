@@ -18,7 +18,7 @@ function draw() {
     noFill();
     ellipse(width/2.00, height/1.9, ellipseWidth);
     ellipseWidth -= (10,30);
-    if(ellipseWidth <= 600){
+    if(ellipseWidth <= windowHeight/1.3){
       //window.open("../../Art75.html","_self")
       exit();
     }
@@ -41,7 +41,7 @@ function arg1() {
   textSize(23);
   fill(255);
   noStroke();
-  text('Thank you for your patients',570,70);
+  text('Thank you for your patience',windowWidth/2.6,70);
 }
 
 setTimeout (arg2,2200);
@@ -50,7 +50,7 @@ function arg2() {
   noFill();
   stroke(255);
   strokeWeight(8);
-  ellipse(736,417,600,600);
+  ellipse(windowWidth/2,windowHeight/1.9,600,600);
 }
 
 setTimeout (arg3,6000);
@@ -59,13 +59,13 @@ function arg3() {
   textSize(17);
   fill(255);
   noStroke();
-  text('back',360,400);
+  text('back',windowWidth/4.2,windowHeight/2);
   fill(255);
-  triangle(320,395,340,380,340,410);
+  triangle(windowWidth/4.6,windowHeight/2.025,windowWidth/4.3, windowHeight/1.95,windowWidth/4.3, windowHeight/2.1);
 }
 
 function mouseClicked() {
-  if (mouseX > 320 && mouseX <400 && mouseY > 380 && mouseY < 410 ) {
+  if (mouseX > windowWidth/4.6 && mouseX <windowWidth/3.5 && mouseY > windowHeight/2.1 && mouseY < windowHeight/1.95 ) {
     window.open("index.html","_self")
   }
 }

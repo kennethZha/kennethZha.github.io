@@ -43,7 +43,7 @@ function mouseClicked() {
   if (mouseX < 200 && mouseY < 80) {
       //addTime.html(timer + 20,true);
       color(255);
-      text("hi", 100,100);
+      text("hi", windowWidth/38,100);
   }
 }
 
@@ -57,8 +57,8 @@ function arg1() {
   fill(255);
   noStroke();
   textSize(14);
-  text("- hamsters hard at work -", 640, 730);
-  rect(40,750,90,5);
+  text("- hamsters hard at work -", windowWidth/2.31, windowHeight/1.09);
+  rect(windowWidth/38,windowHeight/1.06,windowWidth/20,5);
 }
 
 pizza = setTimeout(arg2,9000);
@@ -68,8 +68,8 @@ function arg2() {
   fill(255);
   noStroke();
   textSize(14);
-  text("- eating pizza -", 680, 730);
-  rect(40,750,230,5);
+  text("- eating pizza -", windowWidth/2.2, windowHeight/1.09);
+  rect(windowWidth/38,windowHeight/1.06,windowWidth/7,5);
 }
 
 setTimeout(arg3,20000);
@@ -79,8 +79,8 @@ function arg3() {
   fill(255);
   noStroke();
   textSize(14);
-  text("- taking a shit -", 680, 730);
-  rect(40,750,460,5);
+  text("- taking a shit -", windowWidth/2.2, windowHeight/1.09);
+  rect(windowWidth/38,windowHeight/1.06,windowWidth/4,5);
 }
 
 setTimeout(arg4,40000);
@@ -90,8 +90,8 @@ function arg4() {
   fill(255);
   noStroke();
   textSize(14);
-  text("- procrastinating -", 680, 730);
-  rect(40,750,670,5);
+  text("- procrastinating -", windowWidth/2.22, windowHeight/1.09);
+  rect(windowWidth/38,windowHeight/1.06,windowWidth/2.3,5);
 }
 
 setTimeout(arg5,60000);
@@ -101,8 +101,8 @@ function arg5() {
   fill(255);
   noStroke();
   textSize(14);
-  text("- sleeping -", 680, 730);
-  rect(40,750,850,5);
+  text("- sleeping -", windowWidth/2.18, windowHeight/1.09);
+  rect(windowWidth/38,windowHeight/1.06,windowWidth/1.5,5);
 }
 
 setTimeout(arg6,80000);
@@ -112,8 +112,8 @@ function arg6() {
   fill(255);
   noStroke();
   textSize(14);
-  text("- hamsters working overtime -", 640, 730);
-  rect(40,750,1345,5);
+  text("- hamsters working overtime -", windowWidth/2.33, windowHeight/1.09);
+  rect(windowWidth/38,windowHeight/1.06,windowWidth/1.08,5);
 }
 
 setTimeout(timeover,120000);
