@@ -1,84 +1,61 @@
+html { overflow-y: hidden; }
 body {
+	width: 100%
+	height:100%
 	margin: 0;
 	padding: 0;
-	background-color: #edf8ff;
+	border:0;
+	font-family: Courier;
 }
 
-.heading {
-	font-family: 'Satisfy';
-	background-color: #ade0ff;
- 	width: 100%;
- 	display: inline-block;
- 	padding:20px 0px 15px 0px;
-
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
 }
 
-.heading h1{
- 	margin-top: 20px;
- 	margin-right: 0px;
- 	text-align: center;
- 	font-size: 50px;
+a {
+	 color: white;
+		text-decoration: none;
+		font-family: Courier;
 }
 
-.aboutme {
-	position: fixed;
-	width: 100%;
+
+.header {
+	background-color: #5f9ea0;
+	font-size: 14px;
+	color: white;
+	padding: 5vh;
 }
 
- .aboutme h2 {
- 	display: table;
- 	font-family: 'Satisfy';
-	margin: 41px 172.3vh;
-	font-size: 18px;
-	text-align: center;
-
+h1 {
+	float: left;
 }
 
-.circle {
-	position: fixed;
-	border-top-left-radius: 1;
-	margin: 15px 168.5vh;
-	opacity: .3;
+h2 {
+	float: right;
 }
 
-.top {
-	margin: 0vh 0px 0px 0px;
-	position: fixed;
-	width: 12%;
-	height: 100%;
-}
-
-#top {
-	font-size: 25px;
-}
-
-.top ul li {
-	display: table;
-	padding: 3px;
-	margin: 8vh 0px 0vh 0px;
-	font-size: 20px;
-	font-weight: 700;
-	font-family: 'Satisfy';
-	color: black;
-}
-
-.Spur-Connect {
-	margin-top: 0px;
-	width: 100%;
-}
-
-.GoodDesign {
-	margin-top: 0px;
-}
-
-.Ghost {
-	padding-bottom: 20px;
-	width: 100%;
+h3 {
+	margin-left: 5vh;
+	font-size: 14px;
+	color: #5f9ea0;
 }
 
 .footer {
-	width: 100%;
-	background-color: #ade0ff;
-	padding: 5px;
-	font-size: 20px;
+	position: relative;
+	background-color: #5f9ea0;
+	margin-top: 3vh;
+	padding: 7vh;
+}
+
+canvas {
+	margin:auto;
+	top: 0;
+	left: 0;
+	position: absolute;
 }
