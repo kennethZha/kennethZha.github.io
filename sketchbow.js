@@ -41,7 +41,7 @@ function arg1() {
   textSize(23);
   fill(255);
   noStroke();
-  text('Thank you for your patience',windowWidth/2.6,70);
+  text('Thank you for your patience',windowWidth/2.7,70);
 }
 
 setTimeout (arg2,2200);
