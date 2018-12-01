@@ -50,7 +50,7 @@ function arg2() {
   noFill();
   stroke(255);
   strokeWeight(8);
-  ellipse(windowWidth/2,windowHeight/1.9,600,600);
+  ellipse(windowWidth/2,windowHeight/1.9,windowWidth/2.45, windowHeight/1.325);
 }
 
 setTimeout (arg3,6000);
