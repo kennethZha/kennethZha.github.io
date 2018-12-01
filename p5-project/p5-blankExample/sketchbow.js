@@ -41,7 +41,7 @@ function arg1() {
   textSize(23);
   fill(255);
   noStroke();
-  text('Thank you for your patience',windowWidth/2.6,70);
+  text('Thank you for your patience',windowWidth/2.7,70);
 }
 
 setTimeout (arg2,2200);
@@ -50,7 +50,7 @@ function arg2() {
   noFill();
   stroke(255);
   strokeWeight(8);
-  ellipse(windowWidth/2,windowHeight/1.9,windowWidth/2.45, windowHeight/1.325);
+  ellipse(windowHeight/1.08,windowHeight/1.9,ellipseWidth);
 }
 
 setTimeout (arg3,6000);
