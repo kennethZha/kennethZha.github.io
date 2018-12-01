@@ -1,6 +1,6 @@
 html { overflow-y: hidden; }
 body {
-	margin: 0;
+	width: 100%
 	padding: 0;
 	border:0;
 	font-family: Courier;
@@ -45,6 +45,7 @@ h3 {
 }
 
 .footer {
+	position: relative;
 	background-color: #5f9ea0;
 	margin-top: 3vh;
 	padding: 7vh;
