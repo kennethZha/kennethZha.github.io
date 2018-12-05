@@ -70,7 +70,7 @@ function mouseClicked() {
   }
 }
 
-setTimeout(arg4,120000);
+setTimeout(arg4,30000);
 
 function arg4() {
   window.open("index.html","_self")
